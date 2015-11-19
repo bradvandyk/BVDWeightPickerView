@@ -25,9 +25,9 @@ self.weightPicker.addConstraintsToSuperview(self.view)
 <div class="highlight highlight-source-objc">
 <pre>
 // show our picker
-        self.weightPicker.show { (weight) -> Void in
-            // success block
-            self.lblWeight.text = "My Weight: \(weight)"
-        }
+self.weightPicker.show { (weight) -> Void in
+    // success block
+    self.lblWeight.text = "My Weight: \(weight)"
+}
 </pre>
 </div>
