@@ -4,7 +4,7 @@ WeightPicker View for iOS that combines a UIPickerView with UIToolbar as a singl
 BVDWeightPickerView comes preconfigured with weight values 80lbs to 300lbs
 
 # Example
-<p><img src="Screenshots/Example.png" alt="Animation" style="max-width:100%;">
+<p><img src="Screenshots/Example.png" alt="example">
 </p>
 
 # Adding to View
