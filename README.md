@@ -8,8 +8,7 @@ BVDWeightPickerView comes preconfigured with weight values 80lbs to 300lbs
 </p>
 
 # Adding to View
-<div class="highlight highlight-source-objc">
-<pre>
+```Swift
 // make the view hidden by default
 self.weightPicker.hidden = true
 
@@ -18,16 +17,13 @@ self.view.addSubview(self.weightPicker)
 
 // add the automatic constraints
 self.weightPicker.addConstraintsToSuperview(self.view)
-</pre>
-</div>
+```
 
 # Show Weight Picker
-<div class="highlight highlight-source-objc">
-<pre>
+```Swift
 // show our picker
 self.weightPicker.show { (weight) -> Void in
     // success block
     self.lblWeight.text = "My Weight: \(weight)"
 }
-</pre>
-</div>
+```
